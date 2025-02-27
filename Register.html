@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+</head>
+<body>
+    <h1>Registration Form</h1>
+    <!-- Form Tag -->
+     <form align="center" >
+        <label for="uname">Name: </label>
+        <input type="text" name="username" id="uname" placeholder="Enter Your Name"><br><br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Enter Your Email"><br><br>
+        <label for="pass">Password: </label>
+        <input type="password" name="pass" minlength="8" id="pass" placeholder="Password"><br> <br>
+
+        <!-- Gender -->
+         <label for="gen">Gender</label>
+         <input type="radio" name="gender" checked id="male" value="Male">
+         <label for="male">Male</label>
+         <input type="radio" name="gender" id="female" value="female">
+         <label for="female">Female</label>
+         <input type="radio" name="gender" id="o" value="other">
+         <label for="o">Other</label> <br> <br>
+
+         <!-- Checkbox -->
+          <label for="">Language</label>
+          <input type="checkbox" name="language1" id="lan1" value="c++">
+          <label for="lan1">C++</label>
+          <input type="checkbox" name="language2" id="lan2" value="JavaScript">
+          <label for="lan2">JavaScript</label>
+          <input type="checkbox" name="language3" id="lan3" value="Python">
+          <label for="lan3">Python</label>
+          <input type="checkbox" name="language4" id="lan4" value="HTML/CSS">
+          <label for="lan4">HTML/CSS</label><br> <br>
+          <span>Already Account</span>
+          <a href="./login.html">Login</a> <br>
+        <input type="submit" id="btn" value="Submit"> <br><br>
+
+        <a href="./index.html">Go to Home</a>
+     </form>
+</body>
+</html>
